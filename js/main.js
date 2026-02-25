@@ -2,7 +2,7 @@
 
     /* NAVIGACIJA */
 
-    var nizHref = ["index.html", "#usluge", "#futer", "o-autoru.html", "docs/dokumentacija.pdf"];
+    var nizHref = ["index.html", "#usluge", "#futer", "o-autoru.html", "docs/dokumentacijaa.pdf"];
     var nizTekst = ["POČETNA", "USLUGE", "KONTAKT", "O AUTORU", "DOKUMENTACIJA"];
 
     var navigacija = document.getElementById("navigacija");
