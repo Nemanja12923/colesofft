@@ -529,7 +529,7 @@ header{
     color: white;
 }
 
-.brojac-container {
+#brojac-drzac {
     width: 1100px;
     margin: 0 auto;
     display: flex;
@@ -569,14 +569,14 @@ header{
 
 
 @media (max-width: 1200px){
-  .brojac-container{
+  #brojac-drzac{
     width: 90%;
   }
 }
 
 
 @media (max-width: 992px){
-  .brojac-container{
+  #brojac-drzac{
     flex-direction: column;
     align-items: center;
     gap: 25px;

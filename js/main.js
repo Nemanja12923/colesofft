@@ -239,7 +239,7 @@ document.getElementById("galerija-grid").innerHTML = sadrzajIspis;
 
 
 
-/* FORM */
+/* FORMA */
 
 function proveraForme(e){
   e.preventDefault();
