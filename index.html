@@ -207,11 +207,11 @@
         <form id="kontaktForma" action="#" method="GET" novalidate>
 
           <label for="tbImePrezime">Ime i prezime:</label>
-          <input type="text" id="tbImePrezime" placeholder="Vaše ime i prezime">
+          <input type="text" id="tbImePrezime" name="imePrezime" placeholder="Vaše ime i prezime">
           <p class="greska">Unesite ime i prezime (npr. Nemanja Ćoćić).</p>
 
           <label for="tbEmail">Email:</label>
-          <input type="text" id="tbEmail" placeholder="primer@email.com">
+          <input type="text" id="tbEmail" name="email" placeholder="primer@email.com">
           <p class="greska">Unesite ispravan email (npr. pera125@gmail.com).</p>
 
           <div class="form-grupa">
@@ -247,11 +247,11 @@
           </div>
 
           <label for="tbTelefon">Telefon:</label>
-          <input type="text" id="tbTelefon" placeholder="+381 60 1234567">
+          <input type="text" id="tbTelefon" name="telefon" placeholder="+381 60 1234567">
           <p class="greska">Telefon: npr. +381601234567 ili 0601234567.</p>
 
           <label for="taPoruka">Poruka:</label>
-          <textarea id="taPoruka" placeholder="Vaša poruka"></textarea>
+          <textarea id="taPoruka" name="poruka" placeholder="Vaša poruka"></textarea>
           <p class="greska">Poruka mora imati bar 10 karaktera.</p>
 
           <input type="submit" id="btnPosalji" value="Pošalji">
